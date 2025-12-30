@@ -9,7 +9,7 @@ import TransactionHistory from "./dashboardComponent/transactionHistoryComponent
 import StartInvesting from "./dashboardComponent/startInvestingComponent/StartInvesting";
 import DashboardHeader from "./dashboardComponent/headerComponent/DashboardHeader";
 import DashboardHome from "./dashboardComponent/dashboardHomeComponent/DashboardHome";
-import SideBar from "./sideBarComponents/sideBarFolder/sideBar";
+import SideBar from "./sideBarComponents/sideBarFolder/SideBar";
 
 const Dashboard = () => {
   const [selectedSection, setSelectedSection] = useState("dashboard");
