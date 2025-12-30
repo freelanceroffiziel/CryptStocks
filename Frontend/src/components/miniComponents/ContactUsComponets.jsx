@@ -20,7 +20,7 @@ const ContactUsComponets = () => {
       {contactUs && (
         <section
           id="contactUsConSon"
-          className="fixed lg:bottom-[208px] bottom-[29vh] lg:right-[20px] md:right-[30px] right-[26px] lg:text-[60px] md:text-[70px]  text-[70px] z-50  flex items-center justify-center text-green-900  p-1.5 group gap-1 m-0 hover:text-green-700"
+          className="fixed lg:bottom-[250px] bottom-[29vh] lg:right-[55px] md:right-[30px] right-[18px] lg:text-[60px] md:text-[70px]  text-[70px] z-50  flex items-center justify-center text-green-900  p-1.5 group gap-1 m-0 hover:text-green-700"
         >
             <span
               id=""

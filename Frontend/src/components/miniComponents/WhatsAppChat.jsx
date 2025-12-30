@@ -21,7 +21,7 @@ const WhatsAppChat = () => {
         {WhatsAppChat && (
           <section
             id="chatConSon"
-            className="fixed lg:bottom-[155px] md:bottom-[21vh] bottom-[18vh] lg:right-[20px] md:right-[30px] right-[26px] lg:text-[50px] md:text-[70px] text-[70px] z-50  flex items-center justify-center  bg-green-800 rounded-full p-1.5"
+            className="fixed lg:bottom-[180px] bottom-[23vh] lg:right-[64px] md:right-[30px] right-[26px] lg:text-[40px] md:text-[100px] z-50  flex items-center justify-center  ease-in-out    text-[32px] bg-teal-700 text-teal-100 hover:bg-teal-600 rounded-full p-2 shadow-md transition duration-200 "
           >
             <a
               href={`https://wa.me/${phoneNumber}`}
