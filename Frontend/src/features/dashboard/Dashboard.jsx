@@ -8,8 +8,8 @@ import Referrals from "./dashboardComponent/referralComponents/Referrals";
 import TransactionHistory from "./dashboardComponent/transactionHistoryComponent/TransactionHistory";
 import StartInvesting from "./dashboardComponent/startInvestingComponent/StartInvesting";
 import DashboardHeader from "./dashboardComponent/headerComponent/DashboardHeader";
-import SideBar from "./sideBarComponents/sideBar/sideBar";
 import DashboardHome from "./dashboardComponent/dashboardHomeComponent/DashboardHome";
+import SideBar from "./sideBarComponents/sideBarFolder/sideBar";
 
 const Dashboard = () => {
   const [selectedSection, setSelectedSection] = useState("dashboard");
