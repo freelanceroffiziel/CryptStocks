@@ -23,7 +23,7 @@ L.Marker.prototype.options.icon = greenIcon;
 const position = [32.3589, -86.2757]; // 1537 Dunbar St, Montgomery, AL 36106
 
 const MyMap = () => (
-  <div className="h-auto w-full flex justify-center items-center z-0 bg-gradient-to-br from-gray-900 via-gray-700 to-gray-200 text-clip bg-transparent relative lg:px-20 px-6 py-16 rounded-2xl">
+  <div className="h-auto w-full flex justify-center items-center z-10 bg-gradient-to-br from-gray-900 via-gray-700 to-gray-200 text-clip bg-transparent relative lg:px-20 px-6 py-16 rounded-2xl">
     <MapContainer
       center={position}
       zoom={13}
